@@ -1,4 +1,4 @@
-import sum from "./common-function"
+const sum = require('./common-function')
 
 function hitungBunga(saldo , bunga) {
     let totalSaldo = sum (saldo, bunga)
